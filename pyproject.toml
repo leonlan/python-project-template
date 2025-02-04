@@ -1,16 +1,13 @@
 [project]
-name = "project"
+name = "rcpsp"
 version = "0.1.0"
-description = "Template for Python projects."
+description = "Code and results for variants of the resource-constrained project scheduling problem."
 authors = [
     {name = "Leon Lan", email = "leon.lanyidong@gmail.com"},
 ]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.9,<4.0"
-
-[project.scripts]
-project = "project.main:main"
 
 [project.optional-dependencies]
 dev = [
